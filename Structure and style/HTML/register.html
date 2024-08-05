@@ -29,7 +29,37 @@
 
     <main>
         <h1>Create a new account</h1>
+        <form method="post">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
 
+            <p>...</p>
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+
+            <p>...</p>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <p>Show password</p>
+            <p>Hide password</p>
+
+            <p>...</p>
+
+            <label for="repass">Repeat password</label>
+            <input type="password" name="repass" id="repass">
+            <p>Show password</p>
+            <p>Hide password</p>
+
+            <p>...</p>
+
+            <label for="terms">I have read and agreed to the <a href="terms-and-conditions.html">Terms and Conditions</a></label>
+            <input type="checkbox" name="terms" id="terms">
+
+            <button type="submit">Register</button>
+        </form>
+        <p>You already have an account? <a href="login.html">Log in here.</a></p>
     </main>
 
     <footer>

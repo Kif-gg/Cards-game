@@ -29,7 +29,25 @@
 
     <main>
         <h1>Settings</h1>
+        <section>
+            <label for="language">Select language</label>
+            <select name="language" id="language">
+                <option value="english" selected>English</option>
+                <option value="bulgarian">Bulgarian</option>
+            </select>
+        </section>
 
+        <section>
+            <label for="theme">Theme switcher</label>
+            <input type="checkbox" name="theme" id="theme">
+        </section>
+
+        <section>
+            <label for="sounds">Sounds</label>
+            <input type="checkbox" name="sounds" id="sounds" checked>
+        </section>
+
+        <button type="button">Save preferences</button>
     </main>
 
     <footer>

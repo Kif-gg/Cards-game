@@ -29,7 +29,127 @@
 
     <main>
         <h1>Profile</h1>
+        <section>
+            <h2>User data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Gold medals</th>
+                        <th>Silver medals</th>
+                        <th>Bronze medals</th>
+                        <th>Total games</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JohnDoe</td>
+                        <td>john_doe@gmail.com</td>
+                        <td>12</td>
+                        <td>33</td>
+                        <td>9</td>
+                        <td>69</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
+        <section>
+            <h2>Manage profile</h2>
+            <button type="button">Change email</button>
+            <button type="button">Change password</button>
+            <button type="button">Delete profile</button>
+        </section>
+
+        <section>
+            <h2>Change email</h2>
+            <form method="post">
+                <label for="old-email">Old email</label>
+                <input type="text" name="old-email" id="old-email">
+
+                <p>...</p>
+
+                <label for="new-email">New email</label>
+                <input type="text" name="new-email" id="new-email">
+
+                <p>...</p>
+
+                <label for="repeat-email">Repeat new email</label>
+                <input type="text" name="repeat-email" id="repeat-email">
+
+                <p>...</p>
+
+                <label for="password">Password</label>
+                <input type="password" name="pass" id="password">
+                <p>Show password</p>
+                <p>Hide password</p>
+
+                <p>...</p>
+
+                <button type="submit">Change email</button>
+                <button type="button">Cancel</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Change password</h2>
+            <form method="post">
+                <label for="old-password">Old password</label>
+                <input type="text" name="old-password" id="old-password">
+                <p>Show password</p>
+                <p>Hide password</p>
+
+                <p>...</p>
+
+                <label for="new-password">New password</label>
+                <input type="text" name="new-password" id="new-password">
+                <p>Show password</p>
+                <p>Hide password</p>
+
+                <p>...</p>
+
+                <label for="repeat-password">Repeat new password</label>
+                <input type="text" name="repeat-password" id="repeat-password">
+                <p>Show password</p>
+                <p>Hide password</p>
+
+                <p>...</p>
+
+                <button type="submit">Change password</button>
+                <button type="button">Cancel</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Delete profile</h2>
+            <form method="post">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+    
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+    
+                <label for="password-delete">Password</label>
+                <input type="password" name="password-delete" id="password-delete">
+                <p>Show password</p>
+                <p>Hide password</p>
+    
+                <p>...</p>
+    
+                <label for="repeat-password-delete">Repeat password</label>
+                <input type="password" name="repeat-password-delete" id="repeat-password-delete">
+                <p>Show password</p>
+                <p>Hide password</p>
+    
+                <p>...</p>
+    
+                <label for="terms">I have read and agreed to the <a href="terms-and-conditions.html">Terms and Conditions</a></label>
+                <input type="checkbox" name="terms" id="terms">
+    
+                <button type="submit">Register</button>
+            </form>
+        </section>
     </main>
 
     <footer>

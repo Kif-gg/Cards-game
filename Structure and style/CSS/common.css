@@ -1,3 +1,8 @@
+body {
+    background: #1a6f0b;
+    background: radial-gradient(circle, #1a6f0b 10%, #2e8c1c 50%, #114907 100%);
+}
+
 header {
     background: #500000;
     background: linear-gradient(180deg, #500000 0%, #be1010 50%, #ff0000 100%);

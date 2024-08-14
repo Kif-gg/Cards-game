@@ -1,0 +1,51 @@
+form {
+    padding: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 32rem;
+    height: 40rem;
+    margin: 0 auto;
+    background-color: #4c7aa8;
+    background-image: linear-gradient(135deg, #698aaa 25%, transparent 25%, transparent 75%, #6c8dad 75%, #667b91),
+        linear-gradient(225deg, #A3C1E0 25%, transparent 25%, transparent 75%, #A3C1E0 75%, #A3C1E0);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+form * {
+    text-align: center;
+    align-self: center;
+}
+
+label {
+    background: #3a3a3a;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+.terms {
+    display: flex;
+}
+
+.terms-label {
+    width: 30rem;
+    font-size: 1rem;
+    padding: 0.25rem;
+}
+
+input[type=text],
+input[type=password] {
+    width: 20em;
+    height: 2rem;
+}
+
+input[type=checkbox] {
+    width: 1.15rem;
+    height: 1.15rem;
+}

@@ -72,6 +72,18 @@ main {
     height: 93.6vh;
 }
 
+main a {
+    color: #ff0000;
+    padding: 0.2rem;
+}
+
+main a:hover {
+    color: #be1010;
+    background: #aa7018;
+    background: linear-gradient(0deg, #aa7018 0%, #e2aa1e 25%, #ffd000 50%, #e2aa1e 75%, #aa7018 100%);
+    text-decoration: 0.125rem underline;
+}
+
 footer {
     text-align: center;
     font-size: 1.2rem;

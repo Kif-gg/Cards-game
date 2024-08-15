@@ -1,0 +1,37 @@
+form {
+    border: 1rem solid #ffffff;
+    padding: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25rem;
+    height: 35rem;
+    margin: 0 auto;
+    background-color: #0047ab;
+    background-image: linear-gradient(135deg, #698aaa 25%, transparent 25%, transparent 75%, #6c8dad 75%, #667b91),
+        linear-gradient(225deg, #a3c1e0 25%, transparent 25%, transparent 75%, #a3c1e0 75%, #a3c1e0);
+    background-size: 1.25rem 1.25rem;
+    background-position: 0 0, 0.625rem 0.625rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.95rem #00000033;
+}
+
+form * {
+    text-align: center;
+    align-self: center;
+}
+
+label {
+    background: #3a3a3a;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.35rem;
+}
+
+input[type=text],
+input[type=password] {
+    width: 14em;
+    height: 2rem;
+}

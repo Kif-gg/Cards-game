@@ -13,13 +13,40 @@ header {
 }
 
 h1 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background: #3a3a3a;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.35rem;
     font-size: 2rem;
     font-weight: bolder;
 }
 
 h2 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #3a3a3a;
+    color: #ffffff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.35rem;
     font-size: 1.6rem;
     font-weight: bolder;
+}
+
+main h3 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #3a3a3a;
+    color: #ffffff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.35rem;
 }
 
 h3 {

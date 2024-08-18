@@ -1,0 +1,166 @@
+main section {
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+    line-height: 2rem;
+}
+
+main a {
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.35rem;
+    color: #ff0000;
+    background: #aa7018;
+    background: linear-gradient(0deg, #aa7018 0%, #e2aa1e 25%, #ffd000 50%, #e2aa1e 75%, #aa7018 100%);
+    text-transform: uppercase;
+    box-shadow: 0 0.15rem 1rem #000000;
+}
+
+main a:hover {
+    color: #be1010;
+    background: #e4951f;
+    background: linear-gradient(0deg, #e4951f 0%, #fabd22 25%, #ffd000 50%, #fabd22 75%, #e4951f 100%);
+    text-decoration: 0.125rem underline;
+}
+
+main a:active {
+    position: relative;
+    top: 0.1rem;
+    color: #970d0d;
+    background: #865813;
+    background: linear-gradient(0deg, #865813 0%, #b68a1c 25%, #dfa820 50%, #b68a1c 75%, #865813 100%);
+    text-decoration: 0.125rem underline;
+}
+
+svg {
+    display: block;
+    width: 35rem;
+    height: 35rem;
+    margin: 0 auto;
+}
+
+path.icon-bck {
+    fill: #ffffff;
+}
+
+section>p {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 1.5rem;
+}
+
+div.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.cards>div {
+    width: 20rem;
+    height: 30rem;
+    cursor: pointer;
+}
+
+div.ace {
+    background-color: transparent;
+    margin-right: 6rem;
+    perspective: 1000px;
+}
+
+div.inner {
+    background-color: #ffffff;
+    border: solid #000000;
+    border-radius: 1rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.ace:hover .inner {
+    transform: rotateY(180deg) scaleX(-1);
+}
+
+div.ace .top {
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+div.ace .center {
+    margin: 0 auto;
+    margin-top: 7rem;
+    font-size: 10rem;
+}
+
+div.ace .bottom {
+    text-align: start;
+    margin-top: 11rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    transform: scaleY(-1) scaleX(-1);
+}
+
+.ace .front,
+.ace .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back {
+    background-color: #0047ab;
+    background-image: linear-gradient(135deg, #698aaa 25%, transparent 25%, transparent 75%, #6c8dad 75%, #667b91),
+        linear-gradient(225deg, #a3c1e0 25%, transparent 25%, transparent 75%, #a3c1e0 75%, #a3c1e0);
+    background-size: 1.25rem 1.25rem;
+    background-position: 0 0, 0.625rem 0.625rem;
+    border-radius: 1rem;
+}
+
+div.joker {
+    background-color: transparent;
+    margin-left: 6rem;
+    perspective: 1000px;
+}
+
+.joker:hover .inner {
+    transform: rotateY(-180deg) scaleX(-1);
+}
+
+.joker .front,
+.joker .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+div.joker .top {
+    color: #be1010;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+div.joker svg.center {
+    margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+    fill: #be1010;
+}
+
+div.joker .bottom {
+    color: #be1010;
+    text-align: start;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    transform: scaleY(-1) scaleX(-1);
+}

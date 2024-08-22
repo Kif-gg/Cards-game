@@ -33,22 +33,23 @@
     <main>
         <h1>Spades Madness - Reach the peak of strategy!</h1>
         <section>
-            <label for="difficulty">Select difficulty</label>
-            <select name="difficulty" id="difficulty">
-                <option value="easy" selected>Easy</option>
-                <option value="normal">Normal</option>
-                <option value="hard">Hard</option>
-                <option value="madness">Are you mad?</option>
-            </select>
+            <div>
+                <label for="difficulty">Select difficulty</label>
+                <select name="difficulty" id="difficulty">
+                    <option value="easy" selected>Easy</option>
+                    <option value="normal">Normal</option>
+                    <option value="hard">Hard</option>
+                    <option value="madness">Are you mad?</option>
+                </select>
+                <p><a href="waiting-room.html">Join a random table</a></p>
+            </div>
 
-            <p><a href="waiting-room.html">Join a random table</a></p>
-            
             <p><a href="private-game-creator.html">Create a private table</a></p>
-            
+
             <form method="post">
-                <label for="code">Join a private table with code</label>
+                <label for="code">Join a private table with a code</label>
                 <input type="text" name="code" id="code">
-                <input type="submit" value="Submit code">
+                <button type="submit">Submit code</button>
             </form>
         </section>
     </main>

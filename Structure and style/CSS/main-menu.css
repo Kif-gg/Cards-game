@@ -1,0 +1,80 @@
+main section {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+main div,
+form {
+    border: 1rem solid #ffffff;
+    padding: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25rem;
+    background-color: #0047ab;
+    background-image: linear-gradient(135deg, #698aaa 25%, transparent 25%, transparent 75%, #6c8dad 75%, #667b91),
+        linear-gradient(225deg, #a3c1e0 25%, transparent 25%, transparent 75%, #a3c1e0 75%, #a3c1e0);
+    background-size: 1.25rem 1.25rem;
+    background-position: 0 0, 0.625rem 0.625rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.95rem #00000033;
+}
+
+main section>*>* {
+    margin-top: 2rem;
+}
+
+main section>p {
+    margin-top: 8rem;
+}
+
+main a {
+    padding: 0.5rem 1rem;
+    border-radius: 0.35rem;
+    color: #ff0000;
+    background: #aa7018;
+    background: linear-gradient(0deg, #aa7018 0%, #e2aa1e 25%, #ffd000 50%, #e2aa1e 75%, #aa7018 100%);
+    text-transform: uppercase;
+    box-shadow: 0 0.15rem 1rem #000000;
+}
+
+main a:hover {
+    color: #be1010;
+    background: #e4951f;
+    background: linear-gradient(0deg, #e4951f 0%, #fabd22 25%, #ffd000 50%, #fabd22 75%, #e4951f 100%);
+    text-decoration: 0.125rem underline;
+}
+
+main a:active {
+    position: relative;
+    top: 0.1rem;
+    color: #970d0d;
+    background: #865813;
+    background: linear-gradient(0deg, #865813 0%, #b68a1c 25%, #dfa820 50%, #b68a1c 75%, #865813 100%);
+    text-decoration: 0.125rem underline;
+}
+
+form *,
+select {
+    text-align: center;
+    align-self: center;
+}
+
+label {
+    background: #3a3a3a;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.35rem;
+}
+
+input[type=text],
+select {
+    width: 10em;
+    height: 2rem;
+}

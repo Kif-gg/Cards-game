@@ -1,0 +1,42 @@
+main section {
+    text-align: center;
+}
+
+section p {
+    font-size: 1.6rem;
+    background-color: #3e3e3e;
+    color: #ffffff;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 0.35rem;
+    margin: 0 auto;
+}
+
+main a {
+    position: relative;
+    top: 2rem;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.35rem;
+    color: #ff0000;
+    background: #aa7018;
+    background: linear-gradient(0deg, #aa7018 0%, #e2aa1e 25%, #ffd000 50%, #e2aa1e 75%, #aa7018 100%);
+    text-transform: uppercase;
+    box-shadow: 0 0.15rem 1rem #000000;
+}
+
+main a:hover {
+    color: #be1010;
+    background: #e4951f;
+    background: linear-gradient(0deg, #e4951f 0%, #fabd22 25%, #ffd000 50%, #fabd22 75%, #e4951f 100%);
+    text-decoration: 0.125rem underline;
+}
+
+main a:active {
+    position: relative;
+    top: 0.1rem;
+    color: #970d0d;
+    background: #865813;
+    background: linear-gradient(0deg, #865813 0%, #b68a1c 25%, #dfa820 50%, #b68a1c 75%, #865813 100%);
+    text-decoration: 0.125rem underline;
+}
